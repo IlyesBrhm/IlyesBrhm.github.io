@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Ilyes BRAHIM</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/logo.png" alt="Votre Nom" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Votre Nom">Ilyes BRAHIM</h1>
+          <p class="title">Étudiant en  BUT Informatique</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Afficher les Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="ilyesb2006@gmail.com" class="contact-link">ilyesb2006@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+              <a href="tel:+33651750313" class="contact-link">+33 6 51 75 03 13</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Date de naissance</p>
+              <time datetime="2006-11-02">2 Nov. 2006</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+              <address>Paris, France</address>
+            </div>
+          </li>
+          <li class="contact-item">
+          <div class="icon-box">
+            <ion-icon name="car-outline"></ion-icon>
+          </div>
+          <div class="contact-info">
+            <p class="contact-title">Permis</p>
+            <span class="contact-link">Permis B</span>
+          </div>
+        </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ilyes-brahim-6b3693303/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/IlyesBrhm" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>À propos</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projets</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- ABOUT -->
+      <article class="about active" data-page="à propos">
+
+        <header>
+          <h2 class="h2 article-title">À propos de moi</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Passionné par le développement logiciel et curieux de nature, je suis actuellement étudiant en BUT Informatique. Motivé à découvrir davantage l’environnement professionnel, 
+            je cherche à mettre mes compétences en pratique au sein d’une équipe dynamique, tout en apprenant aux côtés de professionnels expérimentés.
+          </p>
+
+          <p>
+            En parallèle de mes études, je m’intéresse à tout ce qui touche à la technologie, et j’aime explorer de nouvelles idées au fil de mes projets. 
+            En dehors de l’informatique, le sport et les voyages occupent une place importante dans ma vie : ils m’aident à rester équilibré, motivé et ouvert sur le monde.
+          </p>
+          <p>
+            Toujours en quête de nouveaux défis, j’aborde chaque projet avec sérieux, enthousiasme et l’envie constante de progresser.
+          </p>
+
+        </section>
+
+
+        <!-- TESTIMONIALS -->
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Centres d'intérêt</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/voyage.png" alt="Les voyages" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Les voyages</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Voyager me permet de découvrir de nouvelles cultures, d’élargir ma vision du monde et de sortir de ma zone de confort. 
+                    Chaque destination est une source d’inspiration qui nourrit ma curiosité, mon ouverture d’esprit et ma créativité.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/sport.png" alt="Le sport" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Le sport</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Le sport occupe une place importante dans ma vie : il m’aide à rester discipliné, motivé et en pleine forme. 
+                    Il m’apprend aussi la persévérance et le dépassement de soi, des qualités que j’essaie d’appliquer dans mes projets personnels et professionnels.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/info.png" alt="L’informatique" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>L’informatique</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    L’informatique est bien plus qu’un domaine d’études pour moi : c’est une passion. J’aime apprendre de nouvelles technologies, comprendre le fonctionnement des systèmes et développer des solutions utiles. 
+                    C’est un domaine en constante évolution qui m’encourage à progresser chaque jour.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- TESTIMONIALS MODAL -->
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+              </figure>
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+              <time datetime="2024-06-14">14 Juin, 2024</time>
+              <div data-modal-text>
+                <p>
+                  Excellent travail ! La communication était fluide et le résultat final dépassait mes attentes. 
+                  Je recommande vivement ses services.
+                </p>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+
+        <!-- CLIENTS -->
+
+
+      </article>
+
+      <!-- CV -->
+      <article class="resume" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <!-- Bouton CV -->
+        <div class="cv-box">
+          <a href="./assets/CV.pdf" download class="cv-link">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Télécharger mon CV</span>
+          </a>
+        </div>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Formation</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor Universitaire de Technologie (BUT) Informatique</h4>
+              <span>Sept. 2024 — Présent</span>
+              <p class="timeline-text">
+                IUT de Montreuil, Université Paris 8
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Baccalauréat Technologique ST12D</h4>
+              <span>Juin 2024</span>
+              <p class="timeline-text">
+                Lycée Perrins B
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Brevet d’Aptitude aux Fonctions d’Animateur (BAFA)</h4>
+              <span>Avril 2025</span>
+              <p class="timeline-text">
+                Formation générale validée
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Expérience</h3>
+        </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Technicien de déménagement informatique</h4>
+              <span>Nov. 2022 — Présent</span>
+              <p class="timeline-text">
+                Horizon Moov - Déconnexion/Reconnexion de postes, transfert de serveurs, câblage réseau.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Animateur</h4>
+              <span>Juillet 2025</span>
+              <p class="timeline-text">
+                Maisons pour tous "Bertholot", Villeneuve-Saint-Georges
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stage en entreprise</h4>
+              <span>Avril 2024</span>
+              <p class="timeline-text">
+                FREE (Siège), Paris
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Animateur</h4>
+              <span>Juillet 2024</span>
+              <p class="timeline-text">
+                Centre de loisirs “Louise Michel”, Crosne
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Stage en entreprise</h4>
+              <span>Janvier 2021</span>
+              <p class="timeline-text">
+                Hayet Sols, Villeneuve-Saint-Georges
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Compétences</h3>
+
+          <p class="skills-text">
+            Voici un aperçu de mes compétences techniques principales et des outils que j’utilise régulièrement.
+          </p>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Langages</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%"></div>
+              </div>
+              <p class="timeline-text">Lua, CSS, PHP, HTML, Java, C</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Technologies</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%"></div>
+              </div>
+              <p class="timeline-text">MVC, Design Patterns, Git, PostgreSQL</p>
+            </li>
+
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Environnements de développement</h5>
+                <data value="75">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%"></div>
+              </div>
+              <p class="timeline-text">IntelliJ IDEA, Visual Studio Code</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks</h5>
+                <data value="80">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%"></div>
+              </div>
+              <p class="timeline-text">JUnit, JavaFX</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Tout</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Sélectionner une catégorie</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tout</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="E-commerce Platform" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Plateforme E-commerce</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Blog Personnel" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blog Personnel</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="Landing Page" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Landing Page</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-4.png" alt="Application Mobile" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Application Mobile</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Portfolio Design" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio Design</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="Dashboard" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dashboard Admin</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- BLOG -->
+      <article class="projects" data-page="projets">
+        <header>
+          <h2 class="h2 article-title">Projets</h2>
+        </header> 
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Les tendances du design web en 2024" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Development</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-03-15">Mai 2024 - Octobre 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Création d'un jeux en 2D (Terraria Like)</h3>
+
+                  <p class="blog-text">
+                    Ce projet consistait à développer un jeu 2D en respectant l’architecture MVC, avec gestion des mouvements, collisions et génération d’objets.
+                    Il a intégré des algorithmes optimisés, des tests unitaires (JUnit), l’utilisation de Git et une collaboration en trinôme sous IntelliJ IDEA.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/astro.png" alt="Guide complet de React Hooks" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Fondateur</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-02-28">Janvier, 2024 - Maintenant </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">ASTRO FA - Serveur FiveM</h3>
+
+                  <p class="blog-text">
+                    J’ai fondé et développé le serveur FiveM Astro FA, en programmant avec Lua, HTML et CSS. 
+                    Cette expérience m’a permis de gérer une communauté active et de coordonner une équipe de staff.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/database.png" alt="L'importance de l'accessibilité web" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Base De Donnée</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-01-20">Janvier 2024 - </time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Création d’une base de données relationnelle</h3>
+
+                  <p class="blog-text">
+                    Ce projet a consisté à modéliser une base de données complète (MCD, MLD, MPD) et à rédiger des requêtes SQL optimisées, incluant indexation et transactions. 
+                    Il a été réalisé en équipe, avec une attention particulière à l’intégrité référentielle et à la communication collaborative.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulaire de Contact</h3>
+
+          <form action="https://formspree.io/f/xpwvlrjp" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom complet" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Adresse email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Votre message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer le message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- Custom JS -->
+  <script src="./script.js"></script>
+
+  <!-- Ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
