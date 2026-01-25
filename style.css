@@ -27,14 +27,14 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(210, 100%, 65%), 
-    hsl(220, 90%, 55%),  
-    hsla(210, 100%, 69%, 0) 50%
+    #e6d9cd, 
+    #e6d9cd,  
+    hsla(30, 30%, 92%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(210, 97%, 77%, 0.251) 0%, 
-    hsla(210, 100%, 68%, 0) 59.86%
+    hsla(30, 30%, 92%, 0.251) 0%, 
+    hsla(30, 30%, 92%, 0) 59.86%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -43,8 +43,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(210, 100%, 65%), 
-    hsl(220, 90%, 55%)
+    #e6d9cd, 
+    #e6d9cd
   );
 
   /* solid */
@@ -55,9 +55,9 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(210, 100%, 60%); /* bleu vif */
-  --pink: hsl(210, 100%, 60%); /* remplacé par bleu */
-  --vegas-gold: hsl(210, 100%, 60%); /* remplacé par bleu */
+  --orange-yellow-crayola: #e6d9cd;
+  --pink: #e6d9cd;
+  --vegas-gold: #e6d9cd;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -812,7 +812,7 @@ main {
   align-items: center;
   gap: 10px; 
   margin-bottom: 25px;
-/* espace entre l’icône et le texte */
+/* espace entre l'icône et le texte */
 }
 
 
