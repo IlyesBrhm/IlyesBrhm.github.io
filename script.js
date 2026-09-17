@@ -106,6 +106,30 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+// liens "projets mobilisés" (page Compétences -> page Projets)
+const gotoProjectLinks = document.querySelectorAll("[data-goto-project]");
+
+for (let i = 0; i < gotoProjectLinks.length; i++) {
+  gotoProjectLinks[i].addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const targetId = this.getAttribute("href").replace("#", "");
+    const targetProject = document.getElementById(targetId);
+    const projetsNavLink = Array.from(document.querySelectorAll("[data-nav-link]"))
+      .find((link) => link.innerText.trim().toLowerCase() === "projets");
+
+    if (projetsNavLink) { projetsNavLink.click(); }
+
+    if (targetProject) {
+      setTimeout(() => {
+        targetProject.scrollIntoView({ behavior: "smooth", block: "center" });
+        targetProject.classList.add("highlight");
+        setTimeout(() => targetProject.classList.remove("highlight"), 1500);
+      }, 100);
+    }
+  });
+}
+
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
