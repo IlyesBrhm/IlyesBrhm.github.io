@@ -144,6 +144,10 @@
           </li>
 
           <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Compétences</button>
+          </li>
+
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
@@ -447,178 +451,161 @@
 
       </article>
 
-      <!-- PORTFOLIO -->
-      <article class="portfolio" data-page="portfolio">
+      <!-- COMPETENCES -->
+      <article class="competences" data-page="compétences">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Compétences</h2>
         </header>
 
-        <section class="projects">
+        <section class="competences-intro">
+          <p>
+            Ce portfolio propose une <strong>double lecture</strong> de ma troisième année de BUT Informatique :
+            une lecture par les <strong>compétences</strong> (ci-dessous, avec les projets qui les mobilisent) et
+            une lecture par les <strong>projets</strong> (page « Projets », avec les compétences que chacun mobilise).
+            Chaque compétence du référentiel national a été reformulée de façon plus concrète, en regroupant les
+            outils et savoir-faire réellement mis en œuvre dans mes SAÉ.
+          </p>
+        </section>
 
-          <ul class="filter-list">
+        <section class="competences-list">
 
-            <li class="filter-item">
-              <button class="active" data-filter-btn>Tout</button>
-            </li>
+          <ul class="competence-card-list">
 
-            <li class="filter-item">
-              <button data-filter-btn>Web Design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web Development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Sélectionner une catégorie</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
+            <li class="competence-card content-card">
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Gérer des données de l'information</h3>
               </div>
 
-            </button>
+              <p class="competence-text">
+                Concevoir, interroger et sécuriser une base de données, de la modélisation à l'exploitation des données.
+              </p>
 
-            <ul class="select-list">
+              <ul class="competence-sub-list">
+                <li>Modéliser une base de données relationnelle (MCD, MLD, MPD)</li>
+                <li>Interroger et mettre à jour une base de données (SQL)</li>
+                <li>Assurer l'intégrité, la sécurité et l'optimisation des données</li>
+              </ul>
 
-              <li class="select-item">
-                <button data-select-item>Tout</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-1.jpg" alt="E-commerce Platform" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Plateforme E-commerce</h3>
-
-                <p class="project-category">Web Development</p>
-
-              </a>
+              <div class="competence-projects">
+                <span class="competence-projects-label">Projets mobilisés</span>
+                <ul>
+                  <li><a href="#projet-buvette" data-goto-project>Plateforme de gestion de buvette associative</a></li>
+                  <li><a href="#projet-bdd" data-goto-project>Création d'une base de données relationnelle</a></li>
+                </ul>
+              </div>
             </li>
 
-            <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="competence-card content-card">
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="git-branch-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Conduire un projet</h3>
+              </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-2.png" alt="Blog Personnel" loading="lazy">
-                </figure>
+              <p class="competence-text">
+                Identifier les besoins d'un client, structurer un cycle de développement et suivre un projet informatique
+                jusqu'à sa réalisation.
+              </p>
 
-                <h3 class="project-title">Blog Personnel</h3>
+              <ul class="competence-sub-list">
+                <li>Appréhender un besoin client et rédiger un cahier des charges</li>
+                <li>Identifier les phases d'un cycle de développement (MVC, architecture)</li>
+                <li>Mettre en place et suivre une démarche de gestion de projet</li>
+              </ul>
 
-                <p class="project-category">Web Development</p>
-
-              </a>
+              <div class="competence-projects">
+                <span class="competence-projects-label">Projets mobilisés</span>
+                <ul>
+                  <li><a href="#projet-buvette" data-goto-project>Plateforme de gestion de buvette associative</a></li>
+                  <li><a href="#projet-jeu2d" data-goto-project>Création d'un jeu 2D (Terraria Like)</a></li>
+                </ul>
+              </div>
             </li>
 
-            <li class="project-item active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="competence-card content-card">
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="people-outline"></ion-icon>
+                </div>
+                <h3 class="h3">Collaborer au sein d'une équipe informatique</h3>
+              </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-3.jpg" alt="Landing Page" loading="lazy">
-                </figure>
+              <p class="competence-text">
+                Travailler, communiquer et coordonner une équipe autour d'un projet ou d'une communauté informatique.
+              </p>
 
-                <h3 class="project-title">Landing Page</h3>
+              <ul class="competence-sub-list">
+                <li>Travailler en équipe avec des outils collaboratifs (Git, IDE partagé)</li>
+                <li>Coordonner et animer une équipe (staff, communauté)</li>
+                <li>Rendre compte de son activité professionnelle</li>
+              </ul>
 
-                <p class="project-category">Web Design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-4.png" alt="Application Mobile" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Application Mobile</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-5.png" alt="Portfolio Design" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Portfolio Design</h3>
-
-                <p class="project-category">Web Design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/project-6.png" alt="Dashboard" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Dashboard Admin</h3>
-
-                <p class="project-category">Web Development</p>
-
-              </a>
+              <div class="competence-projects">
+                <span class="competence-projects-label">Projets mobilisés</span>
+                <ul>
+                  <li><a href="#projet-jeu2d" data-goto-project>Création d'un jeu 2D (Terraria Like)</a></li>
+                  <li><a href="#projet-astro" data-goto-project>ASTRO FA - Serveur FiveM</a></li>
+                  <li><a href="#projet-bdd" data-goto-project>Création d'une base de données relationnelle</a></li>
+                </ul>
+              </div>
             </li>
 
           </ul>
 
         </section>
 
+        <section class="cross-table-section">
+
+          <h3 class="h3 cross-table-title">Tableau croisé compétences / projets</h3>
+
+          <div class="cross-table-wrapper has-scrollbar">
+            <table class="cross-table">
+              <thead>
+                <tr>
+                  <th>Projet</th>
+                  <th>Gérer des données</th>
+                  <th>Conduire un projet</th>
+                  <th>Collaborer en équipe</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Buvette associative</td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Jeu 2D (Terraria Like)</td>
+                  <td></td>
+                  <td class="check">✓</td>
+                  <td class="check">✓</td>
+                </tr>
+                <tr>
+                  <td>ASTRO FA - Serveur FiveM</td>
+                  <td></td>
+                  <td></td>
+                  <td class="check">✓</td>
+                </tr>
+                <tr>
+                  <td>Base de données relationnelle</td>
+                  <td class="check">✓</td>
+                  <td></td>
+                  <td class="check">✓</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </section>
+
       </article>
+
 
       <!-- BLOG -->
       <article class="projects" data-page="projets">
@@ -630,7 +617,7 @@
 
           <ul class="blog-posts-list">
 
-            <li class="blog-post-item">
+            <li class="blog-post-item" id="projet-buvette">
               <a href="#">
             
                 <figure class="blog-banner-box">
@@ -653,6 +640,11 @@
                     L’application différencie plusieurs rôles (client, barman, administrateur) et repose sur une base
                     de données relationnelle, avec un développement en PHP, JavaScript et une interface responsive.
                   </p>
+
+                  <ul class="competence-tags">
+                    <li class="competence-tag">Gérer des données de l'information</li>
+                    <li class="competence-tag">Conduire un projet</li>
+                  </ul>
             
                 </div>
             
@@ -660,7 +652,7 @@
             </li>
 
 
-            <li class="blog-post-item">
+            <li class="blog-post-item" id="projet-jeu2d">
               <a href="#">
 
                 <figure class="blog-banner-box">
@@ -682,12 +674,17 @@
                     Il a intégré des algorithmes optimisés, des tests unitaires (JUnit), l’utilisation de Git et une collaboration en trinôme sous IntelliJ IDEA.
                   </p>
 
+                  <ul class="competence-tags">
+                    <li class="competence-tag">Conduire un projet</li>
+                    <li class="competence-tag">Collaborer en équipe</li>
+                  </ul>
+
                 </div>
 
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="blog-post-item" id="projet-astro">
               <a href="#">
 
                 <figure class="blog-banner-box">
@@ -709,12 +706,16 @@
                     Cette expérience m’a permis de gérer une communauté active et de coordonner une équipe de staff.
                   </p>
 
+                  <ul class="competence-tags">
+                    <li class="competence-tag">Collaborer en équipe</li>
+                  </ul>
+
                 </div>
 
               </a>
             </li>
 
-            <li class="blog-post-item">
+            <li class="blog-post-item" id="projet-bdd">
               <a href="#">
 
                 <figure class="blog-banner-box">
@@ -735,6 +736,11 @@
                     Ce projet a consisté à modéliser une base de données complète (MCD, MLD, MPD) et à rédiger des requêtes SQL optimisées, incluant indexation et transactions. 
                     Il a été réalisé en équipe, avec une attention particulière à l’intégrité référentielle et à la communication collaborative.
                   </p>
+
+                  <ul class="competence-tags">
+                    <li class="competence-tag">Gérer des données de l'information</li>
+                    <li class="competence-tag">Collaborer en équipe</li>
+                  </ul>
 
                 </div>
 
@@ -794,7 +800,6 @@
 </body>
 
 </html>
-
 
 
 
